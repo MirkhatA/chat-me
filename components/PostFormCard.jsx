@@ -15,7 +15,7 @@ export default function PostFormCard() {
         </div>
       </div>
       <div className="my-3">
-        <h1>Подарите книгу пж</h1>
+        <h1>Подарите сникерс и мерс пж</h1>
       </div>
 
       <div className="flex items-center">

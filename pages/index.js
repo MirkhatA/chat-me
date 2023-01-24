@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar";
 import NavigationMenu from "@/components/NavigationMenu";
-import Card from "@/components/Card";
 import PostFormCard from "@/components/PostFormCard";
 
 export default function Home() {

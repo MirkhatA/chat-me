@@ -1,11 +1,12 @@
 import Card from "./Card";
 import { Switch } from "antd";
+import { AliwangwangOutlined } from "@ant-design/icons";
 
 export default function Navbar() {
   return (
     <Card>
       <div className="flex justify-between items-center px-5">
-        <a href="#">chatMe</a>
+        <AliwangwangOutlined style={{ fontSize: '30px'}}/>
 
         <form className="w-full mx-10">
           <input
