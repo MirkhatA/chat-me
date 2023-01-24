@@ -27,7 +27,7 @@ export default function NavigationMenu() {
           </p>
         </Link>
 
-        <Link href="/">
+        <Link href="/friends">
           <p className="flex gap-2 py-3 items-center hover:text-indigo-500 duration-300">
             <TeamOutlined />
             Friends
