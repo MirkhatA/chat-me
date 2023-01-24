@@ -14,26 +14,35 @@ export default function NavigationMenu() {
       <div className="p-6 ">
         <h3 className="pb-3 text-slate-500">Navigation</h3>
         <Link href="/">
-          <p className="flex gap-2 py-3 items-center">
+          <p className="flex gap-2 py-3 items-center hover:text-indigo-500 duration-300">
             <HomeOutlined />
             Home
           </p>
         </Link>
 
-        <a href="#" className="flex gap-2 py-3 items-center">
-          <SearchOutlined />
-          Search
-        </a>
-        <a href="#" className="flex gap-2 py-3 items-center">
-          <TeamOutlined />
-          Friends
-        </a>
-        <a href="#" className="flex gap-2 py-3 items-center">
-          <MessageOutlined />
-          Messages
-        </a>
+        <Link href="/">
+          <p className="flex gap-2 py-3 items-center hover:text-indigo-500 duration-300">
+            <SearchOutlined />
+            Search
+          </p>
+        </Link>
+
+        <Link href="/">
+          <p className="flex gap-2 py-3 items-center hover:text-indigo-500 duration-300">
+            <TeamOutlined />
+            Friends
+          </p>
+        </Link>
+
+        <Link href="/">
+          <p className="flex gap-2 py-3 items-center hover:text-indigo-500 duration-300">
+            <MessageOutlined />
+            Messages
+          </p>
+        </Link>
+
         <Link href="/profile">
-          <p className="flex gap-2 py-3 items-center">
+          <p className="flex gap-2 py-3 items-center hover:text-indigo-500 duration-300">
             <UserOutlined />
             Profile
           </p>

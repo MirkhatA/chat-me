@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar"
 import NavigationMenu from "@/components/NavigationMenu"
 import ProfileFormCard from "@/components/ProfileFormCard"
+import PostFormCard from "@/components/PostFormCard"
 
 export default function profile() {
   return (
@@ -12,6 +13,7 @@ export default function profile() {
         </div>
         <div className="grow">
           <ProfileFormCard />
+          <PostFormCard />
         </div>
       </div>
     </div>
